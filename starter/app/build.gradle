@@ -4,11 +4,11 @@ plugins {
     id 'kotlin-android-extensions'
 
     // Add secrets-gradle-plugin here
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
     compileSdk 32
-    buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.google.codelabs.buildyourfirstmap"
@@ -37,6 +37,16 @@ dependencies {
 
     // Dependency to include Maps SDK for Android
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.maps.android:android-maps-utils:1.1.0'
+
+    // Maps SDK for Android KTX Library
+    implementation 'com.google.maps.android:maps-ktx:3.0.0'
+
+    // Maps SDK for Android Utility Library KTX Library
+    implementation 'com.google.maps.android:maps-utils-ktx:3.0.0'
+
+    // Lifecycle Runtime KTX Library
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
 
     testImplementation 'junit:junit:4.13.2'
 }
