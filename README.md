@@ -1,18 +1,9 @@
-Google Maps Platform 101: Android Codelab
-=========================================
+# Codelabやりました
+地図を Android アプリに追加する（Kotlin）
+https://developers.google.com/codelabs/maps-platform/maps-platform-101-android?hl=ja
 
-![App screenshot](app_screenshot.png)
+Starterの中身をpushしときます。
 
-## Description
-Accompanying starter and solution code for the [Google Maps Platform 101: Android Codelab][codelab], a codelab that teaches you how to integrate Maps SDK for Android into your app and use its core features.
-
-## Requirements
-* Android Studio 3.6 or higher
-
-## Support
-If you find a bug, please [file an issue]. Or, if you'd like to contribute, send us a [pull request] and refer to our [code of conduct].
-
-[codelab]: https://codelabs.developers.google.com/codelabs/maps-platform-101-android/index.html
-[file an issue]: https://github.com/googlecodelabs/maps-platform-101-android/issues
-[pull request]:  https://github.com/googlecodelabs/maps-platform-101-android/compare
-[code of conduct]: CODE_OF_CONDUCT.md
+以下はlocal.propertiesはpushされないので、clone時に以下の値の入力を忘れないように。
+- GOOGLE_MAPS_API_KEY
+- GOOGLE_MAPS_ID
