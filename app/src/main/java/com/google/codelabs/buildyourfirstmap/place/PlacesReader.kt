@@ -8,20 +8,20 @@ import java.io.InputStream
 import java.io.InputStreamReader
 
 /**
- * Reads a list of place JSON objects from the file places.json
+ * ファイル places.json から場所 JSON オブジェクトのリストを読み取ります
  */
 class PlacesReader(private val context: Context) {
 
-    // GSON object responsible for converting from JSON to a Place object
+    // JSON から Place オブジェクトへの変換を担当する GSON オブジェクト
     private val gson = Gson()
 
-    // InputStream representing places.json
+    // places.jsonを表すInputStream
     private val inputStream: InputStream
         get() = context.resources.openRawResource(R.raw.places)
 
     /**
-     * Reads the list of place JSON objects in the file places.json
-     * and returns a list of Place objects
+     * ファイル places.json 内のプレイス JSON オブジェクトのリストを読み取ります
+     * Place オブジェクトのリストを返します
      */
     fun read(): List<Place> {
         val itemType = object : TypeToken<List<PlaceResponse>>() {}.type

@@ -12,14 +12,14 @@ import com.google.maps.android.clustering.ClusterManager
 import com.google.maps.android.clustering.view.DefaultClusterRenderer
 
 /**
- * A custom cluster renderer for Place objects.
+ * Place オブジェクト用のカスタム クラスター レンダラー
  */
 class PlaceRenderer(
     private val context: Context, map: GoogleMap, clusterManager: ClusterManager<Place>
 ) : DefaultClusterRenderer<Place>(context, map, clusterManager) {
 
     /**
-     * The icon to use for each cluster item
+     * 各クラスタ項目に使用するアイコン
      */
     private val bicycleIcon: BitmapDescriptor by lazy {
         val color = ContextCompat.getColor(
@@ -31,8 +31,8 @@ class PlaceRenderer(
     }
 
     /**
-     * Method called before the cluster item (the marker) is rendered.
-     * This is where marker options should be set.
+     * クラスターアイテム (マーカー) がレンダリングされる前に呼び出されるメソッド。
+     * ここでマーカー オプションを設定する必要があります。
      */
     override fun onBeforeClusterItemRendered(
         item: Place, markerOptions: MarkerOptions
@@ -41,8 +41,8 @@ class PlaceRenderer(
     }
 
     /**
-     * Method called right after the cluster item (the marker) is rendered.
-     * This is where properties for the Marker object should be set.
+     * クラスター アイテム (マーカー) がレンダリングされた直後に呼び出されるメソッド。
+     * ここで、Marker オブジェクトのプロパティを設定する必要があります。
      */
     override fun onClusterItemRendered(clusterItem: Place, marker: Marker) {
         marker.tag = clusterItem

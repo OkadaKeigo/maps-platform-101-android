@@ -1,135 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3ab7ec8-1de7-4136-ae10-379c52ff8556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/BitmapHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/MarkerInfoWindowAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/Place.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlaceRenderer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesReader.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/layout/marker_info_contents.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/raw/places.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/local.properties.defaults" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-ktx/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/BitmapHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/MarkerInfoWindowAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/Place.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlaceRenderer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesReader.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/layout/marker_info_contents.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/raw/places.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/local.properties.defaults" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/BitmapHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/MarkerInfoWindowAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/Place.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlaceRenderer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesReader.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/java/com/google/codelabs/buildyourfirstmap/place/PlacesResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/layout/marker_info_contents.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/raw/places.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/codelabs/buildyourfirstmap/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/google/codelabs/buildyourfirstmap/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,11 +165,5 @@
       <updated>1624395332581</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1624395495685">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup/-2560.-252.2560.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1624395495685" />
   </component>
 </project>
